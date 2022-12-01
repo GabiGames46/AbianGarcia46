@@ -1,0 +1,345 @@
+<html>
+<head>
+    <script src="scripts/js/jquery-3.6.1.js"></script> <!--Vinculo a libreria jquery-->
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+</head>
+<body>
+<header>
+
+
+<div id="logo" >
+<img src="img/IMG.jfif" id="imagenlogo">
+</div>
+
+<div id="title" style= "height: 1em;">
+<center><h1>Todo sobre Apex Legends</h1></center>
+</div>
+
+<div id="usuarios">
+   <img src="img/inicio.jpg" id="inicia" onclick="$('#formulario').show();">
+   <span onclick="$('#formulario').show();" id iniciasecion>inicia secion</span>
+</div>
+
+</header> 
+<br><br><br><br><br>
+
+
+
+<div id="formulario">
+  <form>  <!-- no he explicado el action y estas llamando a un servicio.php, lo he quitado" -->
+<label for=”nombre”>Escriba su nombre</label><br>
+<input type=”text” id=”nombre” name=”nombre”><br>
+<label for=”apellidos”>Escriba sus apellidos</label><br>
+<input type=”text” id=”apellidos” name=”apellidos”><br>
+<label for=”sexo”>Escriba su sexo: </label><br>
+<input type=”radio” id=”hombre” name=”sexo” value=”hombre”>
+<label for=”hombre”>Hombre</label>
+<input type=”radio” id=”mujer” name=”sexo” value=”mujer”>
+<label for=”mujer”>Mujer</label><br><br>
+<input type="button" value ="enviar" onclick="$('#formulario').hide();">
+  </form>
+
+</div>
+
+
+<nav>
+    <ul id="menu">
+         <li><a href="#que_es_apex_legends">1. ¿Qué es apex legends?</a></li>
+         <li><a href="#leyendas_texto1">2. Leyendas</a></li>
+         <li><a href="#armas_texto1">3. Armas</a></li>
+         <li><a href="#Mobilidad_texto1">4. Mobilidad</a></li>
+         <li><a href="#Modos_de_juego_texto1">5. Modos de juego</a></li>
+         <li><a href="#Mapas_texto1">6. Mapas</a></li>
+         <li><a href="#Lore_texto1">7. Lore</a></li>
+    </ul>
+</nav>
+
+<br><br><br><br><br><br><br><br>
+
+<label for="text" id="que_es_apex_legends">1. ¿Qué es apex legends?</label>
+
+<br><br>
+
+<p id="que_es_apex_legends_texto1">Apex Legends es un videojuego shooter battle royale donde su principal curiosidad es la mobilidad el juego esta ambientado en una epoca futuristica y sus armas y objetos asi como las estructuras estan basadas en tal ambiente es un juego muy frenetico debido a la gran capacidad de mobilidad y es eso lo que hace que este juego sea mi shooter preferido, este juego fue creado por respawn y electronic arts y se puede conseguir tanto por origin como por steam sus dos plataformas de descarga.</p>
+
+<img src="img/apex.jpg" id="apex_img1">
+
+<br><br><br><br><br><br><br><br><br><br><br>
+
+<label for="text" id="leyendas_titulo">2. Leyendas</label>
+
+<br><br>
+
+<p id="leyendas_texto1">Las leyendas son los personajes que compiten en los apex games y que podemos utilizar para movernos para movernos por este magnifico juego llamado apex legends, los cuales poseen tres habilidades por leyenda: una habilidad pasiva, una habilidad tactica y una definitiva y dependiendo de las habilidades seguiran diversos roles entre los cuales esta: la defensa, la rotacion, la curacion o suministros y localizadores, un ejemplo de leyenda de cada rol seria, Wraith como personaje de rotacion la cual usa portales y tecnologia en fase para transportarse con mayor seguridad y velocidad por el mapa, gibraltar como personaje de defensa el cual es capaz de cubrir tanto a sus aliados como asi mismo con escudos y generar una lluvia de explosivos con su definitiva, como personaje de curacion o suministros tenemos a lifeline la cual es capaz de revivir a aliados rapidamente, servirles de curas con su dron y ofrecerles suministros con su drop portatil, ya para acabar con los ejemplos tenemos a bloodhound como localizadores el cual es capaz de scanear las zonas cercanas a el con sus escaneres de corto alcance tambien posee vision de deteccion de calor con su definitiva para generar una vision constante de los enemigos cercanos y apoyar al equipo.</p>
+
+<img src="img/apex2.jpg" id="apex_img2">
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+<p id="leyendas_texto2">Mi rol preferido de apex legends es la rotacion y mis 3 personajes favoritos son:</p>
+
+<br>
+
+<p id="leyendas_texto3">3. Pathfinder:</p>
+
+<p id="leyendas_texto4">Con pathfinder puedes usar valisas de locaizacion para saber donde cierra la zona, usar ganchos que usan la inercia de la camera para hacer un recoorido sobrenatural por el aire, y colocar tirolinas para coger altura sus 3 habilidades le dan formas unicas de usarlo y lo hace un personaje muy divertido.</p>
+
+<br><br>
+
+<center><img src="img/apex3.GIF" id="apex_img3"></center>
+
+<br><br><br><br><br><br><br>
+
+<p id="leyendas_texto5">2. Octane:</p>
+
+<p id="leyendas_texto6">Con octane podras experimentar por ti mismo el más puro significado de la palabra velocidad ya que este personaje su pasiva es una regeneracion de la salud su tactica es un boost de velocidad que le quita vida ya que se inyecta adrenalina y por ultimo su definitiva es un trampolin con el cual tambien tendremos un doble salto y tambien podremos hacer cosas muy bonitas de ver con la mobilidad aplicada a estas habilidades.</p>
+
+<br><br>
+
+<center><img src="img/apex4.GIF" id="apex_img4"></center>
+
+<br><br><br><br><br><br><br>
+
+<p id="leyendas_texto7">1. Wraith:</p>
+
+<p id="leyendas_texto8">Como ya la explique antes wraith es un personaje que te permite desplasarte con portales y tecnologia en fase por el mapa pero sus habilidades van mas halla su pasiva es escuchar una voz que le avisa cuando algun enemigo le esta apuntando, su tactica es moverse más rapido atraves de otra dimension que le hace inmune a cualquier daño durante un cierto tiempo, ya su definitiva es colocar un portal para desplazarte cierta distancia de forma casi inmediata tambien posee un boost de velocidad.</p>
+
+<br><br>
+
+<center><img src="img/apex5.GIF" id="apex_img5"></center>
+
+<br><br><br><br><br><br><br>
+
+
+<p id="armas_texto1">3. Armas</p>
+
+<p id="armas_texto2">Apex como ya dije esta ambientado en un mundo futurista y sus armas no iban a ser menos para empezar apex divide sus armas de dos formas tipo de arma y municion, pero yo las clasificare por municion tambien tenemos varios tipos de granadas escudos y curas que ire nombrando para empezar los tipos de municion que hay son:</p>
+
+<p id="armas_texto3">La municion: pesada, ligera, de energia, de francotirador, de escopeta y flechas; luego ya tenemos municion expesifica para armas legendarias</p>
+
+<p id="armas_texto4">Cada municion posee unas cuantas armas y las enumerare por tipo y municion:</p>
+
+<br><br>
+
+<p id="armas_texto5">1. La municion pesada:</p>
+
+<p id="armas_texto6">Para empezar en la municion pesada la usan las siguientes armas la prowler: subfusil de rafagas, la hemlok: fusil de asalto de rafagas, la flatline: fusil de asalto automatico, el repetidor 30-30: arma medio alcance semi-automatica, la rampage: ametralladora ligera, el car: subfusil capaz de usar municion ligera o pesada a eleccion.</p>
+
+<img src="img/apex6.jpg" id="apex_img6">
+
+<br><br><br><br><br><br><br><br><br><br><br>
+
+<p id="armas_texto7">2. La municion ligera:</p>
+
+<p id="armas_texto8">La municion ligera es de las municiones con mas armas: la r99: subfucil, la r-301 o carabina: fusil de asalto, el g7-scout: arma medio alcance semi-automatica, la spitfire: ametralladora ligera, el alternator: subfucil, la car: subfucil que como dije tambien puede usar municion ligera, la p-2020: pistola semi-automatica y la re-45: pistola automatica.</p>
+
+<img src="img/apex7.jpg" id="apex_img7">
+
+<br><br><br><br><br><br><br><br><br><br><br>
+
+<p id="armas_texto9">3. La municion de energia:</p>
+
+<p id="armas_texto10">La municion de energia tambien posee bastante armamento: el volt: subfucil, la devotion: ametralladora ligera, la L-star: ametralladora ligera, la havoc: fusil de asalto, el triple take: arma medio alcance semi-automatica</p>
+
+<img src="img/apex8.jpg" id="apex_img8">
+
+<br><br><br><br><br><br><br><br><br><br><br>
+
+<p id="armas_texto11">4. La municion de francotirador:</p>
+
+<p id="armas_texto12">Las armas que usan la municion de francotirador son casi todas francotiradores salvo una: el sentinel: francotirador de cerrojo, el longbow: francotirador: disparo individual, el rifle de cargas: laser de alto alcance, tambien esta el kraber que es un francotirador legendario pero es la unica arma que no sale de drop y por tanto solo utiliza municion legendaria de francotirador y la wingman: revolver semi-automatico.</p>
+
+<img src="img/apex9.jpg" id="apex_img9">
+
+<br><br><br><br><br><br><br><br><br><br><br>
+
+<p id="armas_texto13">5. La municion de escopeta:</p>
+
+<p id="armas_texto14">La municion de escopeta es exclusiva de escopetas pero se dividen segun o su cadencia/daño o su funcion: escopeta eva-8: escopeta automatica pero bajo daño, escopeta mastiff: cadencia y daño medios, peacekeeper: cadencia baja pero daño elevado, mozambique: al ser una pistola de 3 balines su daño es bajo y tiene una cadencia media.</p>
+
+<img src="img/apex10.jpg" id="apex_img10">
+
+<br><br><br><br><br><br><br><br><br><br><br>
+
+<p id="armas_texto15">6. Flechas</p>
+
+<p id="armas_texto16">Solo hay un arma en todo el juego que use Flechas y ese es el arco Bocek el cual es un arco no hay mucho que decir salvo que si disparas las flechas las puedes recoger y que posee un modo de disparo escopeta</p>
+
+<img src="img/apex11.jpg" id="apex_img11">
+
+<br><br><br><br><br><br><br><br><br><br><br>
+
+<p id="armas_texto17">Ahora voy a proceder a explicar una de las mecanicas más bonitas y tiles de todo apex legends y que fomenta ese frenetismo que tiene el juego la mecanica de escudos:</p>
+
+<br><br>
+
+<p id="armas_texto18">La mecanica de los escudos es bastante conocida y es que nosotros al comenzar una partida de apex legends tendremos un escudo blanco con dos lineas de vida y cada vez que hagamos una cantidad de daño lo podremos mejorar; el blanco tiene 50 de vida y necesitas 150 de daño para mejorarlo a azul que tiene 75 de vida y con 300 de daño se mejorara a morado que posee 100 de vida y requiere de 750 de daño para mejorarlo a rojo que con una vida de 125 es el mejor escudo del juego; tambien existen escudos dorados que no pueden evolucionar tienen 100 de vida pero tienen una pasiva cn la cual te curas el doble usando pilas y jeringas. Tambien puedes cambiarte el escudo si el tuyo esta roto por otro que este completo aunque sea peor si la situacion lo requiere en apex hay que saber ser muy rapido a esta mecanica se le llama swap.</p>
+
+<img src="img/apex12.jpg" id="apex_img12">
+
+<br><br><br><br><br><br><br><br><br><br><br>
+
+<p id="armas_texto19">Ahora voy a explicar cuales son las tres granadas de apex legends:</p>
+
+<p id="armas_texto20">Las electroestrellas: son shurikens que se pegan al objetivo y quitan 10 de vida y causan una explosion de 70 de vida más que tanto en la explosion como al pegarsela paraliza y ralentiza al objetivo.</p>
+
+<img src="img/apex13.jpg" id="apex_img13">
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+<p id="armas_texto21">Las granadas de fragmentacion: son granadas que pueden rodar y si dan directamente al rival se le ocasionara 10 de daño de impacto y 100 de explosion.</p>
+
+<img src="img/apex14.jfif" id="apex_img14">
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+<p id="armas_texto22">Las granadas termita: generan una linea de llamas que dependiendo del tiempo que el rival este en ellas hara mas o menos daño pero lo minimo son 25 de daño.</p>
+
+<img src="img/apex15.jpg" id="apex_img15">
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+<p id="Mobilidad_texto1">4. Mobilidad</p>
+
+<p id="Mobilidad_texto2">La mobilidad en apex hace las mecanicas principales de apex y es por supuesto de las partes más divertidas del juego</p>
+
+
+
+<p id="Mobilidad_texto3">La mobilidad se divide en mecanicas y estas se pueden mezclar para generar nuevas mecanicas:</p>
+
+<br><br>
+
+<p id="Mobilidad_texto4">Lo más simple es saber deslisarce y si saltas durante el deslis puedes coger más impulso ya si miras abajo y cuando saltas miras arriva añadiras momentum e inersia para mayor impulso</p>
+
+<br>
+
+<p id="Mobilidad_texto5">Pasando a algo más complejo tenemos el walljump simple, que requiere de pillar impulso deslizandote y saltando contra una pared y saltando en la pared dejando los botones de movimiento sin pulsar eso genera un impulso hacia atras muy bonito de ver. Para este movimiento hay gente de teclado y raton que se pone la tecla de saltar en la rueda del raton hacia atras.</p>
+
+<br>
+
+<center><img src="img/apex16.GIF" id="apex_img16"></center>
+
+<br><br>
+
+<p id="Mobilidad_texto6">Continuando con lo que para mi es la mejor mecanica simple de apex o al menos la más divertida es el tap strafe, para este movimiento solo se puede hacer en teclado y raton y en mando es mucho más dificil, requiere de ponerte en la ruea del raton hacia adelante el avanzar y al deslizarte si giras la camara hacia la izquierda o derecha y pulsas a o d depende de la direccion podras dar giros de 180º lo cual lo puedes combinar con más mecanicas y usarlas para liarle la cabeza al rival en cualquier enfrentamiento.</p>
+
+<br>
+
+<center><img src="img/apex17.GIF" id="apex_img17"></center>
+
+<br><br>
+
+<p id="Mobilidad_texto7">Pasando con las mecanicas complejas tenemos el walljump-tapstrafe esto se basa en despues de hacer un walljump empalmarl con un tap strafe y generar un giro mucho mayor y decidir la direccion del walljump.</p>
+
+<br>
+
+<img src="img/apex21.jpg" id="apex_img21">
+
+<br><br><br><br><br><br><br><br><br><br><br>
+
+<p id="Mobilidad_texto8">Ya pasamos con una mecanica muy util llamada bunny hop la cual te permite moverte dando saltos mientras agachado y moviendote hacia los lados, antes tambien te podias curar de mientras.</p>
+
+<br>
+
+<center><img src="img/apex18.GIF" id="apex_img18"></center>
+
+<br><br>
+
+<p id="Mobilidad_texto9">Ya con una de las ultimas mecanicas de movimiento complejas esta el superglide que es al escalar agacharte y saltar a la vez en un timing perfecto para salir disparado.</p>
+
+<center><img src="img/apex19.GIF" id="apex_img19"></center>
+
+<br><br>
+
+<p id="Mobilidad_texto10">Para terminar con la mobilidad tenemos las tirolinas las cuales podemos usarlas para o dar un salto alto cogiendola y saltando a la vez, o coger impulso cogiendols mientras corres, se pueden hacer incontables cosas con las tirolinas.</p>
+
+<img src="img/apex20.png" id="apex_img20">
+
+<br><br><br><br><br><br><br><br><br><br><br><br>
+
+<p id="Modos_de_juego_texto1">5. Modos De Juego</p>
+
+<br>
+
+<p id="Modos_de_juego_texto2">Apex comenzo siendo un battle royale en trios pero no es su unico modo de juego actualmente en apex podemos jugar diversos modos de juego pero solo algunos son permanentes solo explicare los permanentes y el resto los nombrare:</p>
+
+<br><br>
+
+<p id="Modos_de_juego_texto3">El primer modo de juego permanente fue trios y lo complementaron con otro modo igual pero en duos, el modo consiste en caer en el mapa, pillar armas y entre 60 jugadores quedar como el trio o el duo superviviente.</p>
+
+<img src="img/apex22.jpg" id="apex_img22">
+
+<br><br><br><br><br><br><br><br><br><br><br><br>
+
+<p id="Modos_de_juego_texto4">Ya con el ultimo modo de juego permanente tenemos arenas un modo de juego 3vs3 en el cual se disputan varias rondas y el equipo que consiga dos victorias por encima de su rival a partir de la 3 victoria, es decir si consigue 3 ya ganaria pero si empatan a 2 necesitaria 4, dicho esto el modo requiere de materiales para comprar armas y curas esto con el fin de dar ventaja a quien recolecte materiales por el mapa.</p>
+
+<img src="img/apex23.jpg" id="apex_img23">
+
+<br><br><br><br><br><br><br><br><br><br><br><br>
+
+<p id="Modos_de_juego_texto5">Ahora voy a hablar de los modos temporales entre ellos estan el tren de navidad, el expreso hibernal, el de hallowen shadow royale, pero al margen de estos ha modos que solo han metido una vez o dos como: el modo solos, el del dia de los inocentes con la mozambique que estaba rota, el de dumies y los mas conocidos el modo control y el modo run gun, todos estos modos fueron implementado durante una semana y no han vuelto.</p>
+
+<img src="img/apex24.jfif" id="apex_img24">
+
+<br><br><br><br><br><br><br><br><br><br><br><br>
+
+<p id="Mapas_texto1">6. Mapas</p>
+
+<p id="Mapas_texto2">En el battle royale de Apex Legends existen un total de 5 mapas con sus zonas caraceristicas, pero no solo me centrare en los mapas sino tambien en mi opinion y la de varios jugadores tanto casuales como pro-players:</p>
+
+<br><br>
+
+<p id="Mapas_texto3">El mapa más criticado en apex a dia de hoy es sin duda storm point desde su salida en la season 11 no ha parado de ser odiado tanto por la comunidad competitiva como por la comunidad casual ya que es un mapa tan grande que te puedes pasar media partida corriendo si encontrarte a nadie para disfrutar de la partida, mi opinion en este es generica ya que estoy de acuerdo con que es el peor mapa y por dichos motivos.</p>
+
+<img src="img/apex25.jpg" id="apex_img25">
+
+<br><br><br><br><br><br><br><br><br><br><br><br>
+
+<p id="Mapas_texto4">El siguiente mapa sera el primero y original de apex estamos halando sin duda de kings canyon un mapa cubierto tanto por maquinaria antigua como por un desierto como por una parte mas selvatica, parece ser que los polos no suelen ser buenos ya que la comunidad competitiva de apex no le gusta nada este mapa por ser el mas pequeño sin embargo a la casual le encanta ya que al ser más pequeño hace que las partidas sean cortas e intensas, sin embargo me encanta este mapa por dicha intensidad.</p>
+
+<img src="img/apex26.jpg" id="apex_img26">
+
+<br><br><br><br><br><br><br><br><br><br><br><br>
+
+<p id="Mapas_texto5">El segundo mapa de apex creo sensacion al ser un mapa con ambente caotico que lo tienen todo una ciudad enorme, zonas de hielo, zonas de fuego, un ambiente futurista con la empresa hamon robotics, y hasta descampados, estamos hablando sin duda de world´s end, este mapa le encanta a la comunidad competitiva y a la casual no le desagrada, pero desde mi punto de vista no es la gran cosa lo mucho es la ciudad por la accion que se genera.</p>
+
+<img src="img/apex27.jpg" id="apex_img27">
+
+<br><br><br><br><br><br><br><br><br><br><br><br>
+
+<p id="Mapas_texto6">El mapa mas reciente es broken moon el cual no ha decepcionado a la comunidad ya que implementa mecanicas de rotacion nuevas como un nuevo tipo de tirolinas y en general el aspecto del mapa crea esa buena vibra la cual agradeces que exista este mapa, por ello de momento mi opinion es positiva hacia este mapa solo hay que esperar a ver como se desarrolla y dejar que la comunidad opine.</p>
+
+<img src="img/apex28.jpg" id="apex_img28">
+
+<br><br><br><br><br><br><br><br><br><br><br><br>
+
+<p id="Mapas_texto7">Ya con el ultimo mapa el cual es el más amado por toda la comunidad, obviamente estamos hablando de olympus un mapa super centrado en generar un ambiente futurista precioso, el cual agrada a todo el mundo incluido yo.</p>
+
+<img src="img/apex29.jpg" id="apex_img29">
+
+<br><br><br><br><br><br><br><br><br><br><br><br>
+
+<p id="Lore_texto1">7. Lore</p>
+
+<p id="Lore_texto2">ahora vamos a pasar con el ultimo punto que es el lore, el lore es lo que refleja la historia de apex, en apex la historia se refleja de varias maneras la mas conocidad es el juego titanfall 2, el cual su campaña es una parte importante de la historia de apex también en cada season sacan un personaje nuevo y sacan tambien su historia la cual la hilan con la de otros personajes también hay animaciones oficiales que nos nombran la historia de un personaje</p>
+
+<center><iframe id="apex_video1" src="https://www.youtube.com/embed/yU_eip8IvQU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+
+<br><br>
+
+<p id="Lore_texto3">En cada season de apex hay unos cuantos trailers hay trailers de: jugabilidad, de temporada, de personaje y del pase de batalla. No voy a poner uno de cada pero si el de jugabilidad de la season actual.</p>
+
+<center><iframe id="apex_video2" src="https://www.youtube.com/embed/10ZVZIqf4uM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+
+<br><br>
+
+<p id="Lore_texto4">El lore de apex es algo que la empresa lleva trabajando mucho tiempo no solo con cada personaje o con cada history of outlands, o con titanfall 2 o con cada trailer, sino con cada mapa o cosas asi es algo que afecta al lore de apex no por nada se considera a apex el battle royale con mejor lore. Y este trailer del titanfall 2 nos demuestra esta primera idea del lore de apex.</p>
+
+<center><iframe id="apex_video3" src="https://www.youtube.com/embed/xCKuVErBPlE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+
+<br><br><br><br><br><br>
+
+
+
+</body>
+</html>
